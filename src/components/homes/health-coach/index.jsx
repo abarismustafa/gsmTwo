@@ -12,6 +12,7 @@ import EventArea from "../home-university/event-area";
 import AdBanner from "./ad-banner";
 import FooterFive from "@/layout/footers/footer-5";
 import useParallax from "@/hooks/use-parallax";
+import LatestNews from "./latestNews";
 
 const HealthCoachMain = () => {
   useParallax();
@@ -22,6 +23,7 @@ const HealthCoachMain = () => {
         {/* <Header no_top_bar={true} /> */}
         {/* header end */}
 
+        <LatestNews />
         {/* hero banner start */}
         <HeroBanner />
         {/* hero banner end */}
@@ -39,23 +41,23 @@ const HealthCoachMain = () => {
         {/* category area end */}
 
         {/* course area start */}
-        <CourseArea />
+        {/* <CourseArea /> */}
         {/* course area end */}
 
         {/* testimonial area start */}
-        <TestimonialArea />
+        {/* <TestimonialArea /> */}
         {/* testimonial area end */}
 
         {/* counter area start */}
-        <CounterArea style_2={true} />
+        {/* <CounterArea style_2={true} /> */}
         {/* counter area end */}
 
         {/* event area start */}
-        <EventArea event_4={true} />
+        {/* <EventArea event_4={true} /> */}
         {/* event area end */}
 
         {/* ad banner start */}
-        <AdBanner />
+        {/* <AdBanner /> */}
         {/* ad banner end */}
 
         {/* footer start */}

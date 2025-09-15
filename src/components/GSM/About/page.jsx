@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer, Header } from "../../../layout";
+import OurVision from "@/components/mission/ourVission/OurVision";
+import OurMission from "@/components/mission/ourMission";
 
 const AboutPage = () => {
   return (
@@ -30,7 +32,7 @@ const AboutPage = () => {
               {/* Image */}
               <div className="col-md-5 p-3 bg-light d-flex justify-content-center">
                 <Image
-                    src="/assets/images/logo.jpg"
+                  src="/assets/images/logo.jpg"
                   alt="GSM Project"
                   width={320}
                   height={400}
@@ -58,8 +60,8 @@ const AboutPage = () => {
                   >
                     <h5 className="text-success mb-2">हमारा दृष्टिकोण</h5>
                     <p className="mb-0 fs-6">
-                      तकनीक और मानव सेवा के माध्यम से ग्रामीण भारत में
-                      स्वास्थ्य सेवाओं को सशक्त और व्यापक बनाना।
+                      तकनीक और मानव सेवा के माध्यम से ग्रामीण भारत में स्वास्थ्य
+                      सेवाओं को सशक्त और व्यापक बनाना।
                     </p>
                   </div>
 
@@ -116,7 +118,8 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-
+      <OurVision />
+      <OurMission />
       <Footer />
     </>
   );

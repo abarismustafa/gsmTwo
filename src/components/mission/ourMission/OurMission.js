@@ -7,6 +7,13 @@ const OurMissionset = () => {
             <div className="container">
                 <div className="row align-items-center">
                     {/* Text Section */}
+                    <div className="col-12 col-md-6 d-flex justify-content-center">
+                        <img
+                            src="/assets/newimage/man-touching-mission-text-screen_218381-4228.jpg"
+                            alt="Our Mission"
+                            className="img-fluid rounded"
+                        />
+                    </div>
                     <div className="col-12 col-md-6 mb-4 mb-md-0">
                         <h2 className="fw-bold">
                             Our <span className="text-primary">Mission</span>
@@ -22,13 +29,7 @@ const OurMissionset = () => {
                     </div>
 
                     {/* Image Section */}
-                    <div className="col-12 col-md-6 d-flex justify-content-center">
-                        <img
-                            src="/assets/newimage/man-touching-mission-text-screen_218381-4228.jpg"
-                            alt="Our Mission"
-                            className="img-fluid rounded"
-                        />
-                    </div>
+
                 </div>
             </div>
         </section>
