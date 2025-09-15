@@ -192,7 +192,9 @@ const menu_data = [
         mega_menu: false,
         submenus: [
             { title: 'Contact Us', link: '/contact-us' },
-            { title: 'Contact Me', link: '/contact-me' }
+            { title: 'Contact Me', link: '/contact-me' },
+            { title: 'Our Vision', link: '/mission/ourVission' },
+            { title: 'Our Mission', link: '/mission/ourMission' }
         ]
     }
 ]

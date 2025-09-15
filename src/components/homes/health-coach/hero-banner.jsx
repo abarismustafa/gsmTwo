@@ -9,28 +9,28 @@ const slider_content_data = [
     pre_title: "Welcome to GSM",
     title: (
       <>
-        Reclaim Your Body, <br /> Your Confidence & <br /> Your Life.
+        गरामीण स्वास्य, <br /> ममत्र (GSM) & <br /> परियोजना.
       </>
     ),
-    desc: "Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.",
+    desc: "गरामीण स्वास््य ममत (GSM) परियोजना एक बहुआयामी औि दूिगामी स्वास््य पहल है जो भाित के ग्रामीण, अर्ध-शहिी औि पपछडे क्षेत्रों में समग्र, सुलभ तथा गुणवत्तापूणध प्राथममक स ्वास््य सेवाओं को स्थायी रूप से पहु ुँचाने के मलए डिजाइन की गई है।",
   },
   {
     pre_title: "Welcome to GSM",
     title: (
       <>
-        Working With, <br /> Expart & chaged <br /> Your Life
+        गरामीण स्वास्य, <br /> ममत्र (GSM) & <br /> परियोजना.
       </>
     ),
-    desc: "Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.",
+    desc: "हमािी मान्यता है कक स ्वास््य केवल चचककत्सालयों तक सीममत नहीं िहना चाहहए — स्वास््य सेवाएुँ उन स्थानों तक पहु ुँचनी चाहहए जहाुँ लोग िहते, काम किते औि अपने पारिवारिक ननणधय लेते हैं। ",
   },
   {
     pre_title: "Welcome to GSM",
     title: (
       <>
-        We Can Help <br /> Your Reignite That <br /> Speak
+        गरामीण स्वास्य, <br /> ममत्र (GSM) & <br /> परियोजना.
       </>
     ),
-    desc: "Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.",
+    desc: " इस दृष्टि से GSM का उद्देश्य ग्रामीण स्ति पि स्वास््य स्रीननंग, समयोचचत िेफ़िल, प्राथममक उपचाि औि समुदाय-आर्ारित स्वास््य मशक्षा की एक सतत् प्रणाली ननममधत किना है। ",
   },
 ];
 
@@ -75,8 +75,10 @@ const HeroBanner = () => {
                     </span>
                     <h1 className="title">{item.title}</h1>
                     <p>
-                      Excepteur sint occaecat cupidatat non proident sunt <br />{" "}
-                      in culpa qui officia deserunt mollit.
+                      {/* Excepteur sint occaecat cupidatat non proident sunt <br />{" "}
+                      in culpa qui officia deserunt mollit. */}
+
+                      {item?.desc}
                     </p>
                     <div className="banner-btn">
                       <a href="#" className="edu-btn">
