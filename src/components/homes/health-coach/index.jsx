@@ -12,6 +12,7 @@ import EventArea from "../home-university/event-area";
 import AdBanner from "./ad-banner";
 import FooterFive from "@/layout/footers/footer-5";
 import useParallax from "@/hooks/use-parallax";
+import LatestNews from "./latestNews";
 
 const HealthCoachMain = () => {
   useParallax();
@@ -22,6 +23,7 @@ const HealthCoachMain = () => {
         {/* <Header no_top_bar={true} /> */}
         {/* header end */}
 
+        <LatestNews />
         {/* hero banner start */}
         <HeroBanner />
         {/* hero banner end */}
