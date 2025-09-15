@@ -202,7 +202,7 @@ const menu_data = [
         mega_menu: false,
         submenus: [
             { title: "Photo Gallery", link: "/gallery-grid" },
-            { title: "Video Gallery", link: "/blog-masonry" },
+            { title: "Video Gallery", link: "/videoGallery" },
          
         ],
     },
