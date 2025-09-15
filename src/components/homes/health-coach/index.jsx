@@ -39,23 +39,23 @@ const HealthCoachMain = () => {
         {/* category area end */}
 
         {/* course area start */}
-        <CourseArea />
+        {/* <CourseArea /> */}
         {/* course area end */}
 
         {/* testimonial area start */}
-        <TestimonialArea />
+        {/* <TestimonialArea /> */}
         {/* testimonial area end */}
 
         {/* counter area start */}
-        <CounterArea style_2={true} />
+        {/* <CounterArea style_2={true} /> */}
         {/* counter area end */}
 
         {/* event area start */}
-        <EventArea event_4={true} />
+        {/* <EventArea event_4={true} /> */}
         {/* event area end */}
 
         {/* ad banner start */}
-        <AdBanner />
+        {/* <AdBanner /> */}
         {/* ad banner end */}
 
         {/* footer start */}

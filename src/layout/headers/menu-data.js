@@ -175,7 +175,7 @@ const menu_data = [
             // { title: 'Course Details 3', link: '/course-details-3' }
 
             { title: "Registration Form", link: "/course-style-1" },
-            { title: "Directory", link: "/course-style-2" },
+            { title: "Directory", link: "/directory" },
         ],
     },
 
@@ -214,6 +214,8 @@ const menu_data = [
         submenus: [
             { title: "Contact Us", link: "/contact-us" },
             { title: "Contact Me", link: "/contact-me" },
+            { title: "Our Mission", link: "/mission/ourMission" },
+            { title: "Our Vision", link: "/mission/ourVission" },
         ],
     },
     {
