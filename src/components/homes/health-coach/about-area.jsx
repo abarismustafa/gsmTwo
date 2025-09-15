@@ -10,13 +10,15 @@ const AboutArea = () => {
               <div className="about-image-gallery">
                 <img
                   className="main-img-1"
-                  src="/assets/images/about/about-17.webp"
+                  src="/assets/newimage/about1.jpeg"
                   alt="About Image"
+                  style={{ width: "400px" }}
                 />
                 <div className="author-box">
                   <img
-                    src="/assets/images/about/about-18.webp"
+                    src="/assets/newimage/about2.jpeg"
                     alt="About Images"
+                    style={{ width: "400px" }}
                   />
                 </div>
                 <ul className="shape-group">
@@ -65,17 +67,22 @@ const AboutArea = () => {
                 >
                   <span className="pre-title">About Us</span>
                   <h2 className="title">
-                    Individual{" "}
-                    <span className="color-secondary">Nutrition</span>{" "}
-                    Counseling & Coaching
+                    गरामीण स्वास्य,
+                    <span className="color-secondary">
+                      {" "}
+                      ममत्र (GSM) &{" "}
+                    </span>{" "}
+                    परियोजना.
                   </h2>
                   <span className="shape-line">
                     <i className="icon-19"></i>
                   </span>
                   <p>
-                    Lorem ipsum dolor sit amet consectur adipiscing elit sed
-                    eiusmod ex tempor incididunt labore dolore magna aliquaenim
-                    ad minim.
+                    गरामीण स्वास््य ममत (GSM) परियोजना एक बहुआयामी औि दूिगामी
+                    स्वास््य पहल है जो भाित के ग्रामीण, अर्ध-शहिी औि पपछडे
+                    क्षेत्रों में समग्र, सुलभ तथा गुणवत्तापूणध प्राथममक स
+                    ्वास््य सेवाओं को स्थायी रूप से पहु ुँचाने के मलए डिजाइन की
+                    गई है।
                   </p>
                 </div>
                 <ul
@@ -84,9 +91,11 @@ const AboutArea = () => {
                   data-sal="slide-up"
                   data-sal-duration="800"
                 >
-                  <li>Expert Trainers</li>
-                  <li>Online Remote Learning</li>
-                  <li>Lifetime Access</li>
+                  <li>डिजजटल सशजतिकिण</li>
+                  <li>आपाि व प्राथममक पह ुँच</li>
+                  <li>जजला-स्ििीय उपचाि क्षमिा</li>
+                  <li>साम दाययक साक्षििा</li>
+                  <li>यनगिानी एवं स धाि</li>
                 </ul>
                 <a href="#" className="edu-btn">
                   Get Start Today <i className="icon-4"></i>

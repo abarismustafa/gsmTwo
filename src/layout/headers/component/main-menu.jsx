@@ -39,7 +39,7 @@ const MainMenu = () => {
               </li>
             </ul>
           )}
-{!menu.mega_menu && menu.submenus?.length > 0 && (
+          {!menu.mega_menu && menu.submenus?.length > 0 && (
             <ul className="submenu">
               {menu.submenus?.map((nav, i) => (
                 <li key={i}>
