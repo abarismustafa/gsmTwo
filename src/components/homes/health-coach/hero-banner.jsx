@@ -9,7 +9,7 @@ const slider_content_data = [
     pre_title: "Welcome to GSM",
     title: (
       <>
-        Reclaim Your Body d, <br /> Your Confidence & <br /> Your Life.
+        Reclaim Your Body, <br /> Your Confidence & <br /> Your Life.
       </>
     ),
     desc: "Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.",
