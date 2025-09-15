@@ -30,15 +30,23 @@ const CEOPage = () => {
             <div className="row g-0">
               {/* Left Side Image */}
               <div className="col-md-4 d-flex align-items-center justify-content-center p-3 bg-light">
-                <Image
-                  src="/images/ceo.jpg" // ✅ Add CEO photo later at /public/images/ceo.jpg
-                  alt="CEO"
+
+                <img src="/assets/images/ceo.jpg" alt="CEO"
                   width={280}
                   height={350}
                   className="rounded-3 shadow"
                   style={{
                     objectFit: "cover",
                   }}
+                // <Image
+                //   src="/images/ceo.jpg" // ✅ Add CEO photo later at /public/images/ceo.jpg
+                //   alt="CEO"
+                //   width={280}
+                //   height={350}
+                //   className="rounded-3 shadow"
+                //   style={{
+                //     objectFit: "cover",
+                //   }}
                 />
               </div>
 

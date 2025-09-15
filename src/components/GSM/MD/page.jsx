@@ -37,16 +37,24 @@ const MDPage = () => {
             <div className="row g-0">
               {/* Left Side Image */}
               <div className="col-md-4 d-flex align-items-center justify-content-center p-3">
-                <Image
-                  src="/assets/images/md.jpg" // ✅ Replace with MD image path
-                  alt="Dr Rajkumar Chauhan"
+                <img src="/assets/images/md.jpg "alt="Dr Rajkumar Chauhan"
                   width={320}
                   height={380}
                   className="rounded-4 img-fluid shadow"
                   style={{
                     objectFit: "cover",
                     border: "4px solid #dee2e6",
-                  }}
+                  }} 
+                //<Image
+                  //src="/assets/images/md.jpg" // ✅ Replace with MD image path
+                  // alt="Dr Rajkumar Chauhan"
+                  // width={320}
+                  // height={380}
+                  // className="rounded-4 img-fluid shadow"
+                  // style={{
+                  //   objectFit: "cover",
+                  //   border: "4px solid #dee2e6",
+                  // }}
                 />
               </div>
 

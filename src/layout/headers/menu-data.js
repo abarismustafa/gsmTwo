@@ -156,7 +156,7 @@ const menu_data = [
             { title: "Chairman", link: "/GSM/chairman" },
             { title: "MD", link: " /GSM/md" },
             { title: "Director", link: "/GSM/director" },
-            { title: "Ceo", link: "/GSM/ceo" },
+            { title: "CEO", link: "/GSM/ceo" },
 
         ],
     },
@@ -187,7 +187,7 @@ const menu_data = [
 
             { title: 'GSM ', link: '/GSM/about' },
             { title: 'GSM Team', link: '/GSM/team' },
-            { title: 'GSM Staff', link: '/blog-standard' },
+            // { title: 'GSM Staff', link: '/blog-standard' },
 
 
             //     { title: 'Blog Standard', link: '/blog-standard' },
@@ -197,14 +197,23 @@ const menu_data = [
         ]
     },
     {
-        title: "Blog",
+        title: "Galley",
         link: "#",
         mega_menu: false,
         submenus: [
-            { title: "Blog Standard", link: "/blog-standard" },
-            { title: "Blog Masonry", link: "/blog-masonry" },
-            { title: "Blog List", link: "/blog-list" },
-            { title: "Blog Details", link: "/blog-details" },
+            { title: "Photo Gallery", link: "/gallery-grid" },
+            { title: "Video Gallery", link: "/blog-masonry" },
+         
+        ],
+    },
+    
+    {
+        title: "Download",
+        link: "#",
+        mega_menu: false,
+        submenus: [
+            { title: "Forms", link: "/GSM/downloadf" },
+            { title: "Information", link: "/GSM/downloadi" },
         ],
     },
     {
@@ -214,15 +223,6 @@ const menu_data = [
         submenus: [
             { title: "Contact Us", link: "/contact-us" },
             { title: "Contact Me", link: "/contact-me" },
-        ],
-    },
-    {
-        title: "Download",
-        link: "#",
-        mega_menu: false,
-        submenus: [
-            { title: "Forms", link: "/GSM/downloadf" },
-            { title: "Information", link: "/GSM/downloadi" },
         ],
     },
 ];
