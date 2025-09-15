@@ -8,21 +8,39 @@ export default function DownloadPage() {
   const files = [
     {
       title: "नामांकन फॉर्म",
-      description: "GSM नामांकन फॉर्म .",
+      description: "GSM नामांकन फॉर्म.",
       file: "/assets/pdfs/Namankanpatr.pdf",
       size: "2.3 MB",
     },
     {
-      title: "Health Awareness Guide",
-      description: "A complete health awareness training guide for volunteers.",
-      file: "/assets/pdfs/health-guide.pdf",
+      title: "भर्ती सूचना - ग्रामीण स्वास्थ्य मित्र योजना, बिहार 2025",
+      description: "भर्ती की सभी जानकारी और प्रक्रिया इस फॉर्म में उपलब्ध है।",
+      file: "/assets/pdfs/भर्ती सूचना - ग्रामीण स्वास्थ्य मित्र योजना, बिहार 2025.pdf",
       size: "1.8 MB",
     },
     {
-      title: "GSM Project Overview",
-      description: "Summary of GSM projects and future goals.",
-      file: "/assets/pdfs/project-overview.pdf",
+      title: "Self Declaration Letter",
+      description: "Candidate's self-declaration form for GSM activities.",
+      file: "/assets/pdfs/Self declaration letter.pdf",
       size: "3.1 MB",
+    },
+    {
+      title: "Volunteer Commitment Form",
+      description: "Form to confirm participation and responsibility acceptance.",
+      file: "/assets/pdfs/VolunteerCommitment.pdf",
+      size: "2.7 MB",
+    },
+    {
+      title: "Health Awareness Consent",
+      description: "Consent form for health awareness campaigns.",
+      file: "/assets/pdfs/HealthAwarenessConsent.pdf",
+      size: "1.5 MB",
+    },
+    {
+      title: "Screening Participation Form",
+      description: "Form for individuals to participate in GSM screening events.",
+      file: "/assets/pdfs/ScreeningParticipation.pdf",
+      size: "2.0 MB",
     },
   ];
 
@@ -32,11 +50,16 @@ export default function DownloadPage() {
         <Header no_top_bar={true} />
 
         {/* Hero Section */}
-        <section className="py-5 bg-light text-center">
+        <section
+          className="py-5 text-center text-white"
+          style={{
+            background: "linear-gradient(135deg, #1E3C72, #2A5298)",
+          }}
+        >
           <div className="container">
-            <h1 className="fw-bold text-primary display-5">📂 Download Center</h1>
-            <p className="lead text-muted">
-              Get access to important reports, forms, and guides in one place.
+            <h1 className="fw-bold display-5">📂 Download Center</h1>
+            <p className="lead">
+              Access official GSM forms, letters, and application documents.
             </p>
           </div>
         </section>
@@ -47,27 +70,25 @@ export default function DownloadPage() {
             <div className="row g-4">
               {files.map((file, index) => (
                 <div key={index} className="col-md-6 col-lg-4">
-                  <div className="card shadow-lg border-0 rounded-4 h-100">
+                  <div className="card custom-card h-100 border-0 shadow-lg">
                     <div className="card-body d-flex flex-column">
-                      <div className="d-flex align-items-center mb-3">
-                        <FileText size={32} className="text-primary me-2" />
-                        <h5 className="fw-bold mb-0">{file.title}</h5>
+                      {/* Icon inside a circular background */}
+                      <div className="icon-circle bg-primary text-white mb-3">
+                        <FileText size={28} />
                       </div>
-                      <p className="text-muted mb-3">{file.description}</p>
-                      <small className="text-secondary mb-3">
-                        📄 PDF • {file.size}
-                      </small>
-                      <div className="mt-auto">
-                        <Link
-                          href={file.file}
-                          target="_blank"
-                          download
-                          className="btn btn-primary w-100 d-flex justify-content-center align-items-center gap-2"
-                        >
-                          <Download size={18} />
-                          Download PDF
-                        </Link>
-                      </div>
+                      <h5 className="fw-bold">{file.title}</h5>
+                      <p className="text-muted flex-grow-1">{file.description}</p>
+                      <span className="badge bg-light text-dark align-self-start mb-3">
+                        📄 {file.size}
+                      </span>
+                      <Link
+                        href={file.file}
+                        target="_blank"
+                        download
+                        className="btn btn-primary d-flex justify-content-center align-items-center gap-2 mt-auto"
+                      >
+                        <Download size={18} /> Download
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -80,19 +101,29 @@ export default function DownloadPage() {
       </div>
 
       <style jsx>{`
-        .card {
+        .custom-card {
+          border-radius: 1rem;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .card:hover {
+        .custom-card:hover {
           transform: translateY(-6px);
-          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 12px 35px rgba(30, 60, 114, 0.3);
+        }
+        .icon-circle {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
         }
         .btn-primary {
-          transition: background-color 0.3s ease, transform 0.2s ease;
+          border-radius: 50px;
+          transition: all 0.3s ease;
         }
         .btn-primary:hover {
-          background-color: #004aad;
-          transform: scale(1.03);
+          transform: scale(1.05);
+          background-color: #163b8f;
         }
       `}</style>
     </div>
