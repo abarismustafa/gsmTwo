@@ -43,9 +43,25 @@ const Theme = () => {
         </label>
       </div>
 
-      <div className="download-browser">
-        <button type="button">Download Prospectus</button>
-      </div>
+    <div className="download-browser">
+  <a
+    href="/assets/pdfs/Prospectus_Book.pdf"
+    download="GSM_Prospectus.pdf"
+    className="btn btn-primary"
+    style={{
+      marginTop: "2rem",
+      padding: "14px 28px", 
+      borderRadius: "8px",
+      fontSize: "1.25rem", 
+      fontWeight: "600", 
+      textTransform: "uppercase", 
+      letterSpacing: "1px", // 
+    }}
+  >
+     Download Prospectus
+  </a>
+</div>
+
     </>
   );
 };
