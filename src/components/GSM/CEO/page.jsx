@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer, Header } from "../../../layout";
+import Breadcrumb from "@/components/breadcrumb/breadcrumb-3";
 
 const CEOPage = () => {
   return (
     <>
       <Header />
+      <Breadcrumb title="GSM" subtitle="SGM"/>
 
       <section
         className="py-5"

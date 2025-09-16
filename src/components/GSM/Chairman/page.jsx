@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer, Header } from "../../../layout";
+import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 
 const ChairmanPage = () => {
   return (
     <>
       <Header />
+      <BreadcrumbThree title="GSM" subtitle="SGM" />
 
       {/* Background Section */}
       <div
@@ -37,15 +39,18 @@ const ChairmanPage = () => {
             <div className="row g-0">
               {/* Left Side Image */}
               <div className="col-md-4 d-flex align-items-center justify-content-center p-3">
-                <img src="/assets/images/chairman.jpg" alt="Dr Mithilesh Kumar Singh"
+                <img
+                  src="/assets/images/chairman.jpg"
+                  alt="Dr Mithilesh Kumar Singh"
                   width={320}
                   height={380}
                   className="rounded-4 img-fluid shadow"
                   style={{
                     objectFit: "cover",
                     border: "4px solid #dee2e6",
-                  }}/>
-                
+                  }}
+                />
+
                 {/* <Image
                   src="/assets/images/chairman.jpg" // ✅ Ensure image path exists in /public/assets/images/
                   alt="Dr Mithilesh Kumar Singh"

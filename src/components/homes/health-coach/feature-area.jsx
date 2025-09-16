@@ -60,13 +60,13 @@ const FeatureArea = () => {
             delay="100"
             clr="secondary-style"
             icon="35"
-            title="जीवनशैली एविं आदतें"
+            title="जीवनशैली एवं आदतें"
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title="महत्वपूणण शारीररक माप (Vital Signs)"
+            title="महत्वपूर्ण शारीरिक माप (Vital Signs)"
           />
           <FeatureItem
             delay="150"

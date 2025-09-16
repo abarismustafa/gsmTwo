@@ -3,6 +3,7 @@ import React from "react";
 import { Footer, Header } from "../../../layout";
 import { Download, FileText } from "lucide-react";
 import Link from "next/link";
+import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 
 export default function DownloadPage() {
   const files = [
@@ -19,14 +20,30 @@ export default function DownloadPage() {
       size: "1.8 MB",
     },
     {
-      title: "Self Declaration Letter",
-      description: "Candidate's self-declaration form for GSM activities.",
-      file: "/assets/pdfs/Self declaration letter.pdf",
-      size: "3.1 MB",
+      title: "ग्रामीण स्वास्थ्य मित्र (BHM)",
+      description:
+        "Step-by-step guide for GSM volunteers with instructions and best practices.",
+      file: "/assets/pdfs/ग्रामीण स्वास्थ्य मित्र (BHM).pdf",
+      size: "2.5 MB",
+    },
+    {
+      title: "ग्रामीण स्वास्थ्य मित्र (DHM)",
+      description:
+        "Step-by-step guide for GSM volunteers with instructions and best practices.",
+      file: "/assets/pdfs/ग्रामीण स्वास्थ्य मित्र (DHM).pdf",
+      size: "2.5 MB",
+    },
+    {
+      title: "ग्रामीण स्वास्थ्य मित्र (GSM)",
+      description:
+        "Step-by-step guide for GSM volunteers with instructions and best practices.",
+      file: "/assets/pdfs/ग्रामीण स्वास्थ्य मित्र (GSM).pdf",
+      size: "2.5 MB",
     },
     {
       title: "Volunteer Commitment Form",
-      description: "Form to confirm participation and responsibility acceptance.",
+      description:
+        "Form to confirm participation and responsibility acceptance.",
       file: "/assets/pdfs/VolunteerCommitment.pdf",
       size: "2.7 MB",
     },
@@ -38,7 +55,8 @@ export default function DownloadPage() {
     },
     {
       title: "Screening Participation Form",
-      description: "Form for individuals to participate in GSM screening events.",
+      description:
+        "Form for individuals to participate in GSM screening events.",
       file: "/assets/pdfs/ScreeningParticipation.pdf",
       size: "2.0 MB",
     },
@@ -49,8 +67,13 @@ export default function DownloadPage() {
       <div id="main-wrapper" className="main-wrapper">
         <Header no_top_bar={true} />
 
+        <BreadcrumbThree
+          title="📂 Download Center"
+          subtitle="Access official GSM forms, letters, and application documents"
+        />
+
         {/* Hero Section */}
-        <section
+        {/* <section
           className="py-5 text-center text-white"
           style={{
             background: "linear-gradient(135deg, #1E3C72, #2A5298)",
@@ -62,7 +85,7 @@ export default function DownloadPage() {
               Access official GSM forms, letters, and application documents.
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* Download Cards */}
         <section className="py-5">
@@ -77,7 +100,9 @@ export default function DownloadPage() {
                         <FileText size={28} />
                       </div>
                       <h5 className="fw-bold">{file.title}</h5>
-                      <p className="text-muted flex-grow-1">{file.description}</p>
+                      <p className="text-muted flex-grow-1">
+                        {file.description}
+                      </p>
                       <span className="badge bg-light text-dark align-self-start mb-3">
                         📄 {file.size}
                       </span>
