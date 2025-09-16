@@ -4,11 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer, Header } from "../../../layout";
 import OurVision from "@/components/mission/ourVission/OurVision";
 import OurMission from "@/components/mission/ourMission";
+import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 
 const AboutPage = () => {
   return (
     <>
       <Header />
+      <BreadcrumbThree title="GSM" subtitle="SGM" />
 
       <section
         className="py-5"

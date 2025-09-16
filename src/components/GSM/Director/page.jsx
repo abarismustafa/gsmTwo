@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer, Header } from "../../../layout";
+import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 
 const DirectorPage = () => {
   return (
     <>
       <Header />
+      <BreadcrumbThree title="GSM" subtitle="SGM" />
 
       <section
         className="py-5"
@@ -17,9 +19,7 @@ const DirectorPage = () => {
       >
         <div className="container">
           {/* Page Title */}
-          <h1 className="text-center fw-bold display-5 mb-2">
-            निदेशक  संदेश
-          </h1>
+          <h1 className="text-center fw-bold display-5 mb-2">निदेशक संदेश</h1>
           <p className="text-center text-muted fs-5 mb-4">
             (Director’s Message)
           </p>
@@ -30,15 +30,17 @@ const DirectorPage = () => {
             <div className="row g-0">
               {/* Left Image Section */}
               <div className="col-md-4 d-flex align-items-center justify-content-center p-3 bg-light">
-                <img  src="/assets/images/director.jpg "alt="Er Ashish Srivastava"
+                <img
+                  src="/assets/images/director.jpg "
+                  alt="Er Ashish Srivastava"
                   width={280}
                   height={350}
                   className="rounded-3 shadow"
                   style={{
                     objectFit: "cover",
                   }}
-                //<Image
-                 // src="/assets/images/director.jpg" // Make sure this file exists in /public/images/
+                  //<Image
+                  // src="/assets/images/director.jpg" // Make sure this file exists in /public/images/
                   // alt="Er Ashish Srivastava"
                   // width={280}
                   // height={350}
@@ -52,9 +54,7 @@ const DirectorPage = () => {
               {/* Right Text Section */}
               <div className="col-md-8">
                 <div className="card-body p-4">
-                  <h3 className="fw-bold text-primary">
-                    Er Ashish Srivastava
-                  </h3>
+                  <h3 className="fw-bold text-primary">Er Ashish Srivastava</h3>
                   <p className="text-muted mb-4">
                     Director – ग्रामीण स्वास्थ्य मित्र
                   </p>
@@ -68,10 +68,12 @@ const DirectorPage = () => {
                     <p className="d-inline fs-5 ms-2">
                       प्रिय साथियों, स्वास्थ्य ही सबसे बड़ा धन है और यदि
                       स्वास्थ्य सेवाएँ{" "}
-                      <strong className="text-primary">गाँव-गाँव तक पहुँच जाएँ</strong>{" "}
-                      तो समाज का हर वर्ग सुरक्षित और सशक्त हो सकता है। इसी सोच के
-                      साथ हमने ग्रामीण स्वास्थ्य मित्र (GSM) परियोजना की शुरुआत
-                      की है।
+                      <strong className="text-primary">
+                        गाँव-गाँव तक पहुँच जाएँ
+                      </strong>{" "}
+                      तो समाज का हर वर्ग सुरक्षित और सशक्त हो सकता है। इसी सोच
+                      के साथ हमने ग्रामीण स्वास्थ्य मित्र (GSM) परियोजना की
+                      शुरुआत की है।
                     </p>
                   </div>
 
@@ -82,8 +84,8 @@ const DirectorPage = () => {
                     </strong>
                     , जो प्राथमिक स्वास्थ्य जाँच, रोगी पंजीकरण तथा स्वास्थ्य
                     जागरूकता फैलाने का कार्य करे। यह पहल पूरी तरह से{" "}
-                    <em>गैर-आर्थिक (Non-Financial)</em> और{" "}
-                    <em>जनहितकारी</em> है, जिसका उद्देश्य केवल सेवा है।
+                    <em>गैर-आर्थिक (Non-Financial)</em> और <em>जनहितकारी</em>{" "}
+                    है, जिसका उद्देश्य केवल सेवा है।
                   </p>
 
                   <ul className="fs-5 lh-lg">

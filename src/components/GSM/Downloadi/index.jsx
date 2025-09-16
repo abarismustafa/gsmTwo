@@ -3,11 +3,20 @@ import React, { useState } from "react";
 import { Footer, Header } from "../../../layout";
 import { Download, Info, Search } from "lucide-react";
 import Link from "next/link";
+import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 
 export default function InformationDownloadPage() {
   const [query, setQuery] = useState("");
 
   const infoFiles = [
+    {
+      title: "Prospectus Book ",
+      description:
+        "Step-by-step guide for GSM volunteers with instructions and best practices.",
+      file: "/assets/pdfs/Prospectus_Book.pdf",
+      size: "25 MB",
+    },
+   
     {
       title: "Introduction to GSM",
       description:
@@ -72,36 +81,23 @@ export default function InformationDownloadPage() {
       <div id="main-wrapper" className="main-wrapper">
         <Header no_top_bar={true} />
 
-        {/* Hero Section */}
-        <section
-          className="py-5 text-center text-white"
-          style={{
-            background: "linear-gradient(135deg, #43a047, #1b5e20)",
-          }}
-        >
-          <div className="container">
-            <h1 className="fw-bold display-5 mb-3">📘 Information Center</h1>
-            <p className="lead mb-4" style={{ color: "#ffffff" }}>
-              Download useful guides, protocols, and resources to stay informed.
-            </p>
-
-            {/* Search Bar */}
-            <div className="d-flex justify-content-center">
-              <div className="input-group" style={{ maxWidth: "500px" }}>
-                <span className="input-group-text bg-white">
-                  <Search className="text-success" size={18} />
-                </span>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search documents..."
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                />
-              </div>
-            </div>
+        <BreadcrumbThree title="📘 Information Center" subtitle="SGM" />
+        <br />
+        {/* Search Bar */}
+        <div className="d-flex justify-content-center">
+          <div className="input-group " style={{ maxWidth: "500px" }}>
+            <span className="input-group-text bg-white">
+              <Search className="text-success" size={18} />
+            </span>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search documents..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
           </div>
-        </section>
+        </div>
 
         {/* Information Cards */}
         <section className="py-5">

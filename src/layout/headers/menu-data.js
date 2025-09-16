@@ -187,6 +187,10 @@ const menu_data = [
 
             { title: 'GSM ', link: '/GSM/about' },
             { title: 'GSM Team', link: '/GSM/team' },
+            { title: 'GSM Work', link: '/GSM/gsmwork' },
+            { title: 'DHM Work', link: '/GSM/dhmwork' },
+            // { title: 'BHM Work', link: '/GSM/team' },
+
             // { title: 'GSM Staff', link: '/blog-standard' },
 
 
