@@ -12,7 +12,7 @@ const GalleryGridMain = () => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true} />
-                <BreadcrumbThree title="Gallery" subtitle="Gallery" />
+                <BreadcrumbThree title="GSM" subtitle="SGM" />
                 <GalleryArea/>
                 <AdBanner/>
                 <Footer style_2={'footer-dark bg-image footer-style-2'} />

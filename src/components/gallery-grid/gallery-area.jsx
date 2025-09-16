@@ -3,16 +3,16 @@ import { useState } from 'react';
 import ImageLightBox from '../common/popup-modal/image-lightbox';
 
 const gallery_items = [
-    { img: '/assets/images/gallery/gallery-01.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-03.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-05.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-02.jpg', category: 'Marketing' },
-    { img: '/assets/images/gallery/gallery-04.jpg', category: 'Marketing' },
-    { img: '/assets/images/gallery/gallery-07.jpg', category: 'Development' },
-    { img: '/assets/images/gallery/gallery-09.jpg', category: 'Development' },
-    { img: '/assets/images/gallery/gallery-03.jpg', category: 'Health' },
-    { img: '/assets/images/gallery/gallery-06.jpg', category: 'Health' },
-    { img: '/assets/images/gallery/gallery-08.jpg', category: 'Health' }
+    { img: '/assets/newimage/imag.jpeg', category: 'Education' },
+    { img: '/assets/newimage/imag1.jpeg', category: 'Education' },
+    { img: '/assets/newimage/imag2.jpeg', category: 'Education' },
+    { img: '/assets/newimage/imag3.jpeg', category: 'Marketing' },
+    { img: '/assets/newimage/imag4.jpeg', category: 'Marketing' },
+    { img: '/assets/newimage/imag5.jpeg', category: 'Development' },
+    { img: '/assets/newimage/imag4.jpeg', category: 'Development' },
+    { img: '/assets/newimage/imag3.jpeg', category: 'Health' },
+    { img: '/assets/newimage/imag2.jpeg', category: 'Health' },
+    { img: '/assets/newimage/imag1.jpeg', category: 'Health' }
 ]
 
 const uniqueItems = gallery_items.filter( (arr, index, self) =>
