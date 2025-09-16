@@ -1,6 +1,11 @@
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const ResistrationFormArea = () => {
+  const router = useRouter();
+  const submitdata = () => {
+    router.push("/carrier/paymentProceed");
+  };
   return (
     <div className="container my-4">
       {/* Header Section */}
@@ -289,9 +294,10 @@ const ResistrationFormArea = () => {
         {/* Submit */}
         <div className="text-center">
           <button
-            type="submit"
+            type="button"
             className="btn btn-primary mt-4"
             style={{ width: "200px", height: "50px", fontSize: "20px" }}
+            onClick={submitdata}
           >
             Submit
           </button>
