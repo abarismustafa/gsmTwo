@@ -30,15 +30,22 @@ const DirectorPage = () => {
             <div className="row g-0">
               {/* Left Image Section */}
               <div className="col-md-4 d-flex align-items-center justify-content-center p-3 bg-light">
-                <Image
-                  src="/assets/images/director.jpg" // Make sure this file exists in /public/images/
-                  alt="Er Ashish Srivastava"
+                <img  src="/assets/images/director.jpg "alt="Er Ashish Srivastava"
                   width={280}
                   height={350}
                   className="rounded-3 shadow"
                   style={{
                     objectFit: "cover",
                   }}
+                //<Image
+                 // src="/assets/images/director.jpg" // Make sure this file exists in /public/images/
+                  // alt="Er Ashish Srivastava"
+                  // width={280}
+                  // height={350}
+                  // className="rounded-3 shadow"
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                 />
               </div>
 
