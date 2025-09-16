@@ -10,13 +10,13 @@ const AboutArea = () => {
               <div className="about-image-gallery">
                 <img
                   className="main-img-1"
-                  src="/assets/newimage/about1.jpeg"
+                  src="/assets/newimage/imag2.jpeg"
                   alt="About Image"
                   style={{ width: "400px" }}
                 />
                 <div className="author-box">
                   <img
-                    src="/assets/newimage/about2.jpeg"
+                    src="/assets/newimage/imag1.jpeg"
                     alt="About Images"
                     style={{ width: "400px" }}
                   />
@@ -78,11 +78,11 @@ const AboutArea = () => {
                     <i className="icon-19"></i>
                   </span>
                   <p>
-                    गरामीण स्वास््य ममत (GSM) परियोजना एक बहुआयामी औि दूिगामी
-                    स्वास््य पहल है जो भाित के ग्रामीण, अर्ध-शहिी औि पपछडे
-                    क्षेत्रों में समग्र, सुलभ तथा गुणवत्तापूणध प्राथममक स
-                    ्वास््य सेवाओं को स्थायी रूप से पहु ुँचाने के मलए डिजाइन की
-                    गई है।
+                    ग्रामीण स्वास्थ्य ममता (GSM) परियोजना एक बहुआयामी और
+                    दीर्घकालिक स्वास्थ्य पहल है, जो भारत के ग्रामीण, अर्ध-शहरी
+                    और पिछड़े क्षेत्रों में समग्र, सुलभ तथा गुणवत्तापूर्ण
+                    प्राथमिक स्वास्थ्य सेवाओं को स्थायी रूप से पहुँचाने के लिए
+                    डिजाइन की गई है।
                   </p>
                 </div>
                 <ul
@@ -92,10 +92,10 @@ const AboutArea = () => {
                   data-sal-duration="800"
                 >
                   <li>डिजजटल सशजतिकिण</li>
-                  <li>आपाि व प्राथममक पह ुँच</li>
-                  <li>जजला-स्ििीय उपचाि क्षमिा</li>
+                  <li>आपात व प्राथमिक पहुँच</li>
+                  <li>जिला-स्तरीय उपचार क्षमता</li>
                   <li>साम दाययक साक्षििा</li>
-                  <li>यनगिानी एवं स धाि</li>
+                  <li>निगरानी एवं सुधार</li>
                 </ul>
                 <a href="#" className="edu-btn">
                   Get Start Today <i className="icon-4"></i>

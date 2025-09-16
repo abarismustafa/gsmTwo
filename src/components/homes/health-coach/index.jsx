@@ -41,7 +41,7 @@ const HealthCoachMain = () => {
         {/* category area end */}
 
         {/* course area start */}
-        {/* <CourseArea /> */}
+        <CourseArea />
         {/* course area end */}
 
         {/* testimonial area start */}

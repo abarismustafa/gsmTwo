@@ -30,19 +30,19 @@ const slider_content_data = [
         ग्रामीण स्वास्थ्य, <br /> मित्र (GSM) & <br /> परियोजना.
       </>
     ),
-    desc: " इस दृष्टि से GSM का उद्देश्य ग्रामीण स्ति पि स्वास््य स्रीननंग, समयोचचत िेफ़िल, प्राथममक उपचाि औि समुदाय-आर्ारित स्वास््य मशक्षा की एक सतत् प्रणाली ननममधत किना है। ",
+    desc: " इस दृष्टि से GSM का उद्देश्य ग्रामीण स्तर पर स्वास्थ्य स्क्रीनिंग, समयोचित रेफ़रल, प्राथमिक उपचार और समुदाय-आधारित स्वास्थ्य शिक्षा की एक सतत् प्रणाली निर्मित करना है। ",
   },
 ];
 
 const slider_images = [
   {
-    img: "/assets/newimage/imag1.jpeg",
+    img: "/assets/newimage/imag5.jpeg",
   },
   {
-    img: "/assets/newimage/imag2.jpeg",
+    img: "/assets/newimage/imag6.jpeg",
   },
   {
-    img: "/assets/newimage/imag3.jpeg",
+    img: "/assets/newimage/d2.jpg",
   },
 ];
 
