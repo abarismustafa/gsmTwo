@@ -67,12 +67,11 @@ const AboutArea = () => {
                 >
                   <span className="pre-title">About Us</span>
                   <h2 className="title">
-                    गरामीण स्वास्य,
+                    {/* ग्रामीण स्वास्थ्य मित्र परियोजना */}
                     <span className="color-secondary">
                       {" "}
-                      ममत्र (GSM) &{" "}
+                      ग्रामीण स्वास्थ्य मित्र परियोजना
                     </span>{" "}
-                    परियोजना.
                   </h2>
                   <span className="shape-line">
                     <i className="icon-19"></i>

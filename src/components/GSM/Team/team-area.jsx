@@ -25,32 +25,32 @@ const TeamArea = () => {
     {
       name: "DR. AJEET KUMAR",
       title: "MBBS, MD (HEALTH ADVISOR, GSM, BIHAR)",
-      img: "/images/team5.jpg",
+      img: "/assets/newimage/ajit.png",
     },
     {
       name: "DR. RANI",
       title: "MBBS (GYNECOLOGIST) (HEALTH ADVISOR, GSM, BIHAR)",
-      img: "/images/team6.jpg",
+      img: "/assets/newimage/rani.png",
     },
     {
       name: "MR. BIKESH KUMAR",
       title: "VOLUNTEER (LIVELIHOOD DEVELOPMENT PROMOTION, GSM, BIHAR)",
-      img: "/images/team7.jpg",
+      img: "/assets/newimage/bikesh.png",
     },
     {
       name: "PRITI VERMA",
       title: "VOLUNTEER & OFFICE HEAD (PUBLIC RELATIONSHIP EXECUTIVE)",
-      img: "/images/team8.jpg",
+      img: "/assets/newimage/prity.png",
     },
     {
       name: "ADVOCATE KUNAL JAIN",
       title: "B.COM, LLB, MBA, DIPLOMA IN CYBER LAW",
-      img: "/images/team9.jpg",
+      img: "/assets/newimage/kurnal.png",
     },
     {
       name: "SONAM SINGH",
       title: "MEDIA PRABHARI",
-      img: "/images/team10.jpg",
+      img: "/assets/newimage/sonam.png",
     },
   ];
 
