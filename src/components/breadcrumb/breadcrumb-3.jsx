@@ -6,7 +6,7 @@ const BreadcrumbThree = ({ title, subtitle }) => {
     <div
       className="edu-breadcrumb-area position-relative text-white"
       style={{
-        backgroundImage: "url('/assets/images/bg/breadcrumb-bg.jpg')",
+        backgroundImage: "url('/assets/newimage/GSMBANNER.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -25,18 +25,22 @@ const BreadcrumbThree = ({ title, subtitle }) => {
           <div className="page-title">
             <h1 className="title text-white">{title}</h1>
           </div>
-          <ul className="edu-breadcrumb list-inline mt-3">
+          <ul className="edu-breadcrumb list-inline mt-3 ">
             <li className="breadcrumb-item d-inline text-white">
-              <Link href="/">Home</Link>
+              <Link href="/" className="text-white">
+                Home
+              </Link>
             </li>
             <li className="separator d-inline text-white">
-              <i className="icon-angle-right"></i>
+              <i className="icon-angle-right text-white"></i>
             </li>
             <li className="breadcrumb-item d-inline text-white">
-              <a href="#">Pages</a>
+              <a href="#" className="text-white">
+                Pages
+              </a>
             </li>
             <li className="separator d-inline text-white">
-              <i className="icon-angle-right"></i>
+              <i className="icon-angle-right text-white"></i>
             </li>
             <li
               className="breadcrumb-item d-inline text-white active"
