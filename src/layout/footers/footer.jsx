@@ -7,6 +7,8 @@ const footer_contents = {
   desc: " ग्रामीण स्वास्थ्य ममता (GSM) परियोजना का उद्देश्य ग्रामीण क्षेत्रों में सस्ती और गुणवत्तापूर्ण प्राथमिक स्वास्थ्य सेवाएँ पहुँचाना है।",
   add: "G1-454, Dal Mill Road Near Vidya Memorial Public School, Uttam Nagar, New Delhi-110059",
   Regd: "H. No. 738, Ground Floor, Blk-d, Jahangirpuri City North East Delhi- 110033.",
+  stateHead:
+    "32, Ashiyana Galaxy, Exhibition Rd, in Front of Lemon Tree Premire Hotel, Salimpur Ahra, Dujra, Patna, Bihar-800001",
   call: "8076591948, 8236049275, 9318328064 ,7717765608",
   email: "info@graminswasthyamitra.org",
   widgets: [
@@ -16,11 +18,10 @@ const footer_contents = {
       widget_title: "Online Platform",
       footer_links: [
         { link: "GSM/about", title: "About" },
-        { link: "event-grid", title: "Events" },
+        // { link: "event-grid", title: "Events" },
         { link: "GSM/team", title: "Instructor Profile" },
-        { link: "purchase-guide", title: "Purchase Guide" },
+        // { link: "purchase-guide", title: "Purchase Guide" },
         { link: "GSM/downloadi", title: "Download" },
-
       ],
     },
     {
@@ -30,8 +31,8 @@ const footer_contents = {
       footer_links: [
         { link: "contact-us", title: "Contact Us" },
         { link: "gallery-grid", title: "Gallery" },
-        { link: "blog-standard", title: "News & Articles" },
-        { link: "faq", title: "FAQ's" },
+        // { link: "blog-standard", title: "News & Articles" },
+        // { link: "faq", title: "FAQ's" },
         { link: "sign-in", title: "Sign In/Registration" },
         { link: "coming-soon", title: "Coming Soon" },
         { link: "carrier", title: "Career" },
@@ -40,8 +41,17 @@ const footer_contents = {
   ],
 };
 
-const { logoDark, logoLight, desc, add, call, email, widgets } =
-  footer_contents;
+const {
+  logoDark,
+  logoLight,
+  desc,
+  add,
+  stateHead,
+  Regd,
+  call,
+  email,
+  widgets,
+} = footer_contents;
 
 const Footer = ({ style_2, dark_bg, home_4, cls = "", logo_white = false }) => {
   return (
@@ -111,17 +121,22 @@ const Footer = ({ style_2, dark_bg, home_4, cls = "", logo_white = false }) => {
                   </div>
                 )}
 
-                <p className="description">{desc}</p>
-                <div className="widget-information">
+                {/* <p className="description">{desc}</p> */}
+                <div className="widget-information mt-3">
                   <ul className="information-list">
                     <li>
-                      <span>Corporate & Communication Office:</span>
-                      {add}
+                      <span>State Head Office:</span>
+                      {stateHead}
                     </li>
                     <li>
                       <span>Corporate & Communication Office:</span>
                       {add}
                     </li>
+                    <li>
+                      <span>Regd Office:</span>
+                      {Regd}
+                    </li>
+
                     <li>
                       <span>Call:</span>
                       <a href="tel:+011235641231">{call}</a>
