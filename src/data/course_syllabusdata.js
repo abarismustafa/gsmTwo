@@ -1,30 +1,64 @@
-const syllabus_data = [
+const course_syllabusdata = [
   {
     id: 1,
-    img: "/assets/images/courses/syllabus-01.jpg", // <-- Replace with your syllabus image
-    title: "Computer Science Syllabus",
-    duration: "Full Year",
-    level: "Beginner to Advanced",
-    category: "CS",
-    short_desc: "Detailed syllabus covering programming, databases, and web development.",
+    title: "सामान्य स्वास्थ्य जानकारी",
+    duration: "पूरे साल",
+    level: "बेसिक",
+    category: "स्वास्थ्य",
+    short_desc: "स्वास्थ्य से जुड़ी बुनियादी जानकारी और जागरूकता सामग्री।",
+    health_coach: true,
+    price: 50,
   },
   {
     id: 2,
-    img: "/assets/images/courses/syllabus-02.jpg", // <-- Replace with your syllabus image
-    title: "Mathematics Syllabus",
-    duration: "Full Year",
-    level: "Intermediate",
-    category: "Math",
-    short_desc: "Complete syllabus including Algebra, Calculus, and Statistics.",
+    title: "महिला स्वास्थ्य एवं मातृत्व",
+    duration: "6 महीने",
+    level: "मध्यम",
+    category: "स्वास्थ्य",
+    short_desc: "महिला स्वास्थ्य, गर्भावस्था देखभाल और मातृत्व संबंधी जानकारी।",
+    health_coach: true,
+    price: 0,
   },
   {
     id: 3,
-    img: "/assets/images/courses/syllabus-03.jpg", // <-- Replace with your syllabus image
-    title: "Physics Syllabus",
-    duration: "Full Year",
-    level: "Intermediate",
-    category: "Science",
-    short_desc: "Covers Mechanics, Electricity, Magnetism, and Modern Physics.",
+    title: "बाल स्वास्थ्य एवं टीकाकरण",
+    duration: "3 महीने",
+    level: "बेसिक",
+    category: "स्वास्थ्य",
+    short_desc: "शिशु स्वास्थ्य, पोषण और समय पर टीकाकरण की जानकारी।",
+    health_coach: true,
+    price: 0, // Added default price to avoid NaN
+  },
+  {
+    id: 4,
+    title: "वृद्ध स्वास्थ्य (Geriatric Screening)",
+    duration: "3 महीने",
+    level: "मध्यम",
+    category: "स्वास्थ्य",
+    short_desc: "वरिष्ठ नागरिकों के लिए नियमित स्वास्थ्य जांच और परामर्श।",
+    health_coach: true,
+    price: 0,
+  },
+  {
+    id: 5,
+    title: "मानसिक स्वास्थ्य एवं नशा मुक्ति",
+    duration: "2 महीने",
+    level: "मध्यम",
+    category: "स्वास्थ्य",
+    short_desc: "मानसिक स्वास्थ्य जागरूकता और नशा मुक्ति कार्यक्रम।",
+    health_coach: true,
+    price: 0,
+  },
+  {
+    id: 6,
+    title: "स्वच्छता एवं पर्यावरण स्वास्थ्य",
+    duration: "2 महीने",
+    level: "बेसिक",
+    category: "स्वास्थ्य",
+    short_desc: "सफाई, स्वच्छता और पर्यावरण संरक्षण पर कोर्स।",
+    health_coach: true,
+    price: 0,
   },
 ];
-export default course-syllabus_data;
+
+export default course_syllabusdata;

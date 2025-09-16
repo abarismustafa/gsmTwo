@@ -39,7 +39,8 @@ const FeatureArea = () => {
           data-sal-duration="800"
         >
           <span className="pre-title">
-            (सामुदायिक स ्वास ््ि सेवाओं की नई पहल)
+            (सामुदायिक स्वास्थ्य सेवाओं की एक नई पहल
+)
           </span>
           <h2 className="title">
             Patient Screening Points – Gramin Swasthya Mitra (GSM)
@@ -53,7 +54,7 @@ const FeatureArea = () => {
             delay="50"
             clr="primary-style"
             icon="34"
-            title="सामान्य स्वास््य जानकारी सिंग्रह"
+            title="सामान्य स्वास्थ्य संबंधी जानकारी संग्रह"
           />
           <FeatureItem
             delay="100"
@@ -83,37 +84,37 @@ const FeatureArea = () => {
             delay="150"
             clr="extra06-style"
             icon="36"
-            title=" मठहला स्वास््य एविं मातृत्व स्रीननिंग"
+            title=" महिला स्वास्थ्य तथा मातृत्व स्क्रीनिंग सेवाएँ"
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title="िाल स्वास््य एविं टीकाकरण"
+            title="बाल स्वास्थ्य एवं टीकाकरण सेवाएँ"
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title="वृद्ि स्वास््य (Geriatric Screening) "
+            title="वृद्ध स्वास्थ्य (Geriatric Screening) "
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title="मानमसक स्वास््य एविं नशा मुक्तत"
+            title="मानसिक स्वास्थ्य सेवाएं एवं नशा मुक्ति कार्यक्रम"
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title=" स्वच्छता एविं पयाणवरण स्वास््य"
+            title=" स्वच्छता एवं पर्यावरण स्वास्थ्य"
           />
           <FeatureItem
             delay="150"
             clr="extra06-style"
             icon="36"
-            title="सामुदानयक स्वास््य योजनाओिं की जानकारी "
+            title="सामुदायिक स्वास्थ्य योजनाओं की जानकारी"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import FooterSocial from "./component/footer-social";
 const footer_contents = {
   logoLight: "/assets/images/logo.jpg",
   logoDark: "/assets/images/logo.jpg",
-  desc: "Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.",
+  desc: " ग्रामीण स्वास्थ्य ममता (GSM) परियोजना का उद्देश्य ग्रामीण क्षेत्रों में सस्ती और गुणवत्तापूर्ण प्राथमिक स्वास्थ्य सेवाएँ पहुँचाना है।",
   add: "G1-454, Dal Mill Road Near Vidya Memorial Public School, Uttam Nagar, New Delhi-110059",
   Regd: "H. No. 738, Ground Floor, Blk-d, Jahangirpuri City North East Delhi- 110033.",
   call: "8076591948, 8236049275, 9318328064 ,7717765608",
