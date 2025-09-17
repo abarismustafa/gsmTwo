@@ -89,7 +89,7 @@ const Header = ({
                           <ul className="submenu">
                             {categories.map((category, i) => (
                               <li key={i}>
-                                <Link href={`${category.link}`}>
+                                <Link href={${category.link}}>
                                   {category.title}
                                 </Link>
                               </li>

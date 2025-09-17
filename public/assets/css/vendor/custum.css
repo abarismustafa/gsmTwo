@@ -27,3 +27,93 @@
     color: #ffff;
     background-color: #1da4da;
 }
+
+
+.edu-header .header-mainmenu {
+    background-color: #ee1d23;
+}
+
+.edu-header .header-mainmenu.edu-sticky {
+    background-color: #ee1d23;
+}
+
+.mainmenu-nav .mainmenu>li>a {
+    color: #fff;
+}
+
+.header-action li.icon a {
+    color: #ffff;
+}
+
+.hero-banner.hero-style-9 .slider {
+    height: 113vh;
+}
+
+.color-primary {
+    color: #ee1d23;
+}
+
+.hero-banner.hero-style-9 .slider .health-slider-content .swiper-slide .inner .title {
+    color: #081245;
+    ;
+}
+
+.banner-btn .edu-btn {
+    background: #001376;
+}
+
+.section-title .pre-title {
+    color: #ee1d23;
+}
+
+.section-title .title {
+    color: #081245;
+}
+
+.edu-about-area {
+    background: #001376;
+}
+
+.section-title p {
+    color: #fff;
+}
+
+.about-content .features-list li {
+    color: #fff;
+}
+
+.home-eight-course {
+    background: #001376;
+}
+
+.section-left .title {
+    color: #fff;
+}
+
+.header-btn .btn-medium {
+    background: #001376;
+}
+
+.header-action li.icon a .count {
+    background: #001376;
+}
+
+.footer-subscription-form .btn-medium {
+    background: #001376;
+}
+
+.contact-us-info .heading-title {
+    color: #081245;
+}
+
+.footer-lighten .copyright-area {
+    background-color: #001376;
+}
+
+.footer-lighten .copyright-area p {
+    color: #ffff;
+}
+
+.edu-footer .copyright-area a {
+    color: #ee1d23;
+}
