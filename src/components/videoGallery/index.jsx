@@ -8,9 +8,11 @@ import style from "@/styles/BackgroundStyles.module.css"
 const VideoGalleryMain = () => {
   useParallax();
   return (
-    <div className="sticky-header">
-      <div id="main-wrapper" 
-      className={`main-wrapper{${style["gradient-blue"]}`}>
+ <div className="sticky-header">
+      <div
+        id="main-wrapper"
+        className={`main-wrapper ${style["gradient-green"]}`}
+      >
         <Header no_top_bar={true} />
         <BreadcrumbThree title="Gallery" subtitle="Video Gallery" />
         <VideoGallery />
