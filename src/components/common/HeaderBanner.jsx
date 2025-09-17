@@ -5,8 +5,8 @@ const HeaderBanner = () => {
     <div
       className="py-3 text-white"
       style={{
-        // backgroundColor: "#ffae00"
-        background: "linear-gradient(90deg, #ffae00 0%, #001376 100%)",
+        backgroundColor: "#ffae00",
+        // background: "linear-gradient(90deg, #ffae00 0%, #001376 100%)",
       }}
     >
       <div className="container">

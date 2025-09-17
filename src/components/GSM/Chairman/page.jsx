@@ -33,7 +33,7 @@ const ChairmanPage = () => {
             className="card shadow-lg border-0 rounded-4 p-3"
             style={{
               transition: "all 0.3s ease-in-out",
-              backgroundColor: "white",
+              backgroundColor: "#001376",
             }}
           >
             <div className="row g-0">
@@ -67,10 +67,10 @@ const ChairmanPage = () => {
               {/* Right Side Content */}
               <div className="col-md-8">
                 <div className="card-body p-4">
-                  <h3 className="fw-bold text-primary">
+                  <h3 className="fw-bold " style={{ color: "white" }}>
                     Dr. Mithilesh Kumar Singh
                   </h3>
-                  <h6 className="text-muted mb-4">
+                  <h6 className=" mb-4" style={{ color: "white" }}>
                     Chairman – ग्रामीण स्वास्थ्य मित्र
                   </h6>
 
@@ -90,7 +90,7 @@ const ChairmanPage = () => {
                     </p>
                   </blockquote>
 
-                  <p className="fs-5 lh-lg">
+                  <p className="fs-5 lh-lg" style={{ color: "white" }}>
                     इस परियोजना का मुख्य उद्देश्य है –{" "}
                     <strong className="text-primary">
                       हर गांव, हर घर तक बुनियादी स्वास्थ्य जागरूकता और प्राथमिक
@@ -102,7 +102,7 @@ const ChairmanPage = () => {
                     सही संस्थान तक पहुंचाना है।
                   </p>
 
-                  <p className="fs-5 lh-lg">
+                  <p className="fs-5 lh-lg" style={{ color: "white" }}>
                     मैं विश्वास के साथ कह सकता हूं कि यह परियोजना न केवल ग्रामीण
                     समाज में स्वास्थ्य के प्रति जागरूकता लाएगी, बल्कि लोगों के
                     जीवन की गुणवत्ता को भी बेहतर बनाएगी।{" "}
@@ -112,7 +112,7 @@ const ChairmanPage = () => {
                     </strong>
                   </p>
 
-                  <p className="fs-5 lh-lg">
+                  <p className="fs-5 lh-lg" style={{ color: "white" }}>
                     मैं सभी ग्राम स्तर के प्रतिनिधियों, स्वयंसेवकों और
                     समाजसेवियों से अपील करता हूं कि इस मिशन में हमारा साथ दें और
                     एक स्वस्थ भारत के निर्माण में योगदान करें। साथ मिलकर हम
@@ -121,10 +121,16 @@ const ChairmanPage = () => {
 
                   {/* Signature Section */}
                   <div className="text-end mt-4">
-                    <p className="fw-bold mb-0">सादर,</p>
-                    <p className="mb-0">(हस्ताक्षर)</p>
-                    <p className="fw-bold mb-0">अध्यक्ष (Chairman)</p>
-                    <p className="fw-bold text-primary">
+                    <p className="fw-bold mb-0" style={{ color: "white" }}>
+                      सादर,
+                    </p>
+                    <p className="mb-0" style={{ color: "white" }}>
+                      (हस्ताक्षर)
+                    </p>
+                    <p className="fw-bold mb-0" style={{ color: "white" }}>
+                      अध्यक्ष (Chairman)
+                    </p>
+                    <p className="fw-bold " style={{ color: "white" }}>
                       ग्रामीण स्वास्थ्य मित्र परियोजना
                     </p>
                   </div>
