@@ -12,7 +12,7 @@ const GalleryGridMain = () => {
     return (
         <div className='sticky-header'>
             <div id="main-wrapper" 
-            className={`main-wrapper ${style["gradient-blue"]}`}>
+            className={`main-wrapper ${style["gradient-green"]}`}>
                 <Header no_top_bar={true} />
                 <BreadcrumbThree title="GSM" subtitle="SGM" />
                 <GalleryArea/>
