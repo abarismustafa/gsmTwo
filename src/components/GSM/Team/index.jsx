@@ -6,13 +6,17 @@ import useParallax from "@/hooks/use-parallax";
 import { useRouter } from "next/navigation";
 import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
 import TeamArea from "./team-area";
+import styles from "@/styles/BackgroundStyles.module.css"
 
 const TeamPage = () => {
   useParallax();
 
   return (
     <div className="sticky-header">
-      <div id="main-wrapper" className="main-wrapper">
+      <div
+        id="main-wrapper"
+        className={`main-wrapper ${styles["gradient-blue"]}`}
+      >
         <Header no_top_bar={true} />
         <BreadcrumbThree
           title="GSM Team"

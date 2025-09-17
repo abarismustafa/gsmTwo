@@ -5,12 +5,20 @@ import { Footer, Header } from "../../../layout";
 import OurVision from "@/components/mission/ourVission/OurVision";
 import OurMission from "@/components/mission/ourMission";
 import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
+import styles from "@/styles/BackgroundStyles.module.css"
 
 const AboutPage = () => {
   return (
-    <>
+   
+   <div className="sticky-header">
+      <div
+        id="main-wrapper"
+        className={`main-wrapper ${styles["gradient-blue"]}`}
+      >
+    
       <Header />
       <BreadcrumbThree title="GSM" subtitle="SGM" />
+
 
       <section
         className="py-5"
@@ -119,11 +127,13 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+
       </section>
       <OurVision />
       <OurMission />
       <Footer />
-    </>
+    </div>
+    </div>
   );
 };
 
