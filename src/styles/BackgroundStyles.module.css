@@ -1,0 +1,19 @@
+/* Gradient options for all pages */
+.gradient-blue {
+  background: linear-gradient(135deg, #001376, #e8eaee, #1163df);
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.gradient-green {
+  background: linear-gradient(135deg, #c9d0c9, #595c59, #f3fff3);
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, #9c8e8e, #d7b6d7, #faf5ff);
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+

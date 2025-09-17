@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import ImageLightBox from '../common/popup-modal/image-lightbox';
+import styles from "@/styles/BackgroundStyles.module.css"
 
 const gallery_items = [
     { img: '/assets/newimage/GSM1.jpg', category: 'Education' },
@@ -47,7 +48,10 @@ const GalleryArea = () => {
     }
 
     return (
+        
         <>
+        
+
             <div className="edu-gallery-area edu-section-gap">
                 <div className="container">
                     <div className="isotope-wrapper">
@@ -85,6 +89,7 @@ const GalleryArea = () => {
             <ImageLightBox images={images} open={open} setOpen={setOpen}
                 photoIndex={photoIndex} setPhotoIndex={setPhotoIndex} />
             {/* image light box end */}
+        
         </>
     )
 }
