@@ -4,19 +4,19 @@ import { Footer, Header } from "../../../layout";
 import { Download, Info, Search } from "lucide-react";
 import Link from "next/link";
 import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-3";
+import styles from "@/styles/BackgroundStyles.module.css";
 
 export default function InformationDownloadPage() {
   const [query, setQuery] = useState("");
 
   const infoFiles = [
     {
-      title: "Prospectus Book ",
+      title: "Prospectus Book",
       description:
         "Step-by-step guide for GSM volunteers with instructions and best practices.",
       file: "/assets/pdfs/Prospectus_Book.pdf",
       size: "25 MB",
     },
-   
     {
       title: "Introduction to GSM",
       description:
@@ -71,21 +71,24 @@ export default function InformationDownloadPage() {
     },
   ];
 
-  // Filter results based on search query
   const filteredFiles = infoFiles.filter((file) =>
     file.title.toLowerCase().includes(query.toLowerCase())
   );
 
   return (
     <div className="sticky-header">
-      <div id="main-wrapper" className="main-wrapper">
+      <div
+        id="main-wrapper"
+        className={`main-wrapper ${styles["gradient-green"]}`}
+      >
         <Header no_top_bar={true} />
 
-        <BreadcrumbThree title="📘 Information Center" subtitle="SGM" />
+        <BreadcrumbThree title="📘 Information Center" subtitle="GSM" />
         <br />
+
         {/* Search Bar */}
         <div className="d-flex justify-content-center">
-          <div className="input-group " style={{ maxWidth: "500px" }}>
+          <div className="input-group shadow-sm" style={{ maxWidth: "500px" }}>
             <span className="input-group-text bg-white">
               <Search className="text-success" size={18} />
             </span>
@@ -99,42 +102,39 @@ export default function InformationDownloadPage() {
           </div>
         </div>
 
-        {/* Information Cards */}
+        {/* Horizontal List of Files */}
         <section className="py-5">
           <div className="container">
-            <div className="row g-4">
+            <div className="list-group">
               {filteredFiles.length > 0 ? (
                 filteredFiles.map((file, index) => (
-                  <div key={index} className="col-md-6 col-lg-4">
-                    <div className="card glass-card h-100">
-                      <div className="card-body d-flex flex-column">
-                        <div className="d-flex align-items-center mb-3">
-                          <Info size={32} className="text-success me-2" />
-                          <h5 className="fw-bold mb-0">{file.title}</h5>
-                        </div>
-                        <p className="text-muted mb-3">{file.description}</p>
-                        <small className="text-secondary mb-3">
-                          📄 PDF • {file.size}
-                        </small>
-                        <div className="mt-auto">
-                          <Link
-                            href={file.file}
-                            target="_blank"
-                            download
-                            className="btn btn-success w-100 d-flex justify-content-center align-items-center gap-2"
-                          >
-                            <Download size={18} />
-                            Download Info
-                          </Link>
-                        </div>
-                      </div>
+                  <div
+                    key={index}
+                    className="list-group-item d-flex justify-content-between align-items-center glass-item mb-3"
+                  >
+                    <div className="d-flex flex-column">
+                      <h6 className="fw-bold mb-1 d-flex align-items-center">
+                        <Info size={20} className="text-success me-2" />
+                        {file.title}
+                      </h6>
+                      <p className="text-muted small mb-0">
+                        {file.description}
+                      </p>
+                      <small className="text-secondary">📄 {file.size}</small>
                     </div>
+                    <Link
+                      href={file.file}
+                      target="_blank"
+                      download
+                      className="btn btn-outline-success rounded-pill d-flex align-items-center gap-2"
+                    >
+                      <Download size={16} />
+                      Download
+                    </Link>
                   </div>
                 ))
               ) : (
-                <p className="text-center text-muted">
-                  No documents found for your search.
-                </p>
+                <p className="text-center text-muted">No documents found.</p>
               )}
             </div>
           </div>
@@ -144,22 +144,27 @@ export default function InformationDownloadPage() {
       </div>
 
       <style jsx>{`
-        .glass-card {
-          background: rgba(255, 255, 255, 0.85);
+        .glass-item {
+          background: rgba(255, 255, 255, 0.9);
           backdrop-filter: blur(8px);
-          border-radius: 1rem;
-          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+          border-radius: 0.75rem;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+          padding: 1rem 1.5rem;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .glass-card:hover {
-          transform: translateY(-6px);
-          box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+        .glass-item:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
-        .btn-success {
-          transition: background-color 0.3s ease, transform 0.2s ease;
+        .btn-outline-success {
+          border-width: 2px;
+          font-weight: 500;
+          padding: 0.4rem 1rem;
+          transition: all 0.3s ease;
         }
-        .btn-success:hover {
-          background-color: #145a32;
+        .btn-outline-success:hover {
+          background-color: #28a745;
+          color: #fff;
           transform: scale(1.03);
         }
       `}</style>
