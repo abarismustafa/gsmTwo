@@ -19,7 +19,7 @@ const DirectorPage = () => {
       >
         <div className="container">
           {/* Page Title */}
-          <h1 className="text-center fw-bold display-5 mb-2">निदेशक संदेश</h1>
+          <h1 className="text-center fw-bold display-5 mb-2">परियोजना निदेशक संदेश</h1>
           <p className="text-center text-muted fs-5 mb-4">
             (Director’s Message)
           </p>
