@@ -96,7 +96,7 @@ const AboutArea = () => {
                   <li>साम दाययक साक्षििा</li>
                   <li>निगरानी एवं सुधार</li>
                 </ul>
-                <a href="#" className="edu-btn">
+                <a href="/GSM/about" className="edu-btn">
                   Get Start Today <i className="icon-4"></i>
                 </a>
               </div>
