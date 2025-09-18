@@ -26,10 +26,16 @@ const DirectorPage = () => {
           <hr className="w-25 mx-auto mb-5" />
 
           {/* Card Container */}
-          <div className="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <div
+            className="card border-0 shadow-lg rounded-4 overflow-hidden"
+            style={{
+              transition: "all 0.3s ease-in-out",
+              backgroundColor: "#001376",
+            }}
+          >
             <div className="row g-0">
               {/* Left Image Section */}
-              <div className="col-md-4 d-flex align-items-center justify-content-center p-3 bg-light">
+              <div className="col-md-4 d-flex align-items-center justify-content-center p-3 ">
                 <img
                   src="/assets/images/director.jpg "
                   alt="Er Ashish Srivastava"
@@ -54,8 +60,10 @@ const DirectorPage = () => {
               {/* Right Text Section */}
               <div className="col-md-8">
                 <div className="card-body p-4">
-                  <h3 className="fw-bold text-primary">Er Ashish Srivastava</h3>
-                  <p className="text-muted mb-4">
+                  <h3 className="fw-bold " style={{ color: "white" }}>
+                    Er Ashish Srivastava
+                  </h3>
+                  <p className=" mb-4" style={{ color: "white" }}>
                     Director – ग्रामीण स्वास्थ्य मित्र
                   </p>
 
@@ -77,7 +85,7 @@ const DirectorPage = () => {
                     </p>
                   </div>
 
-                  <p className="fs-5 lh-lg">
+                  <p className="fs-5 lh-lg" style={{ color: "white" }}>
                     इस परियोजना का लक्ष्य है कि हर गाँव में{" "}
                     <strong className="text-primary">
                       शिक्षित ग्रामीण स्वास्थ्य मित्र उपलब्ध हो
@@ -89,12 +97,18 @@ const DirectorPage = () => {
                   </p>
 
                   <ul className="fs-5 lh-lg">
-                    <li>ग्रामीण समाज में स्वास्थ्य संबंधी जागरूकता बढ़ेगी।</li>
-                    <li>लोग समय पर बीमारियों की जाँच और परामर्श पाएँगे।</li>
-                    <li>गाँव-गाँव में स्वस्थ जीवन शैली को बढ़ावा मिलेगा।</li>
+                    <li style={{ color: "white" }}>
+                      ग्रामीण समाज में स्वास्थ्य संबंधी जागरूकता बढ़ेगी।
+                    </li>
+                    <li style={{ color: "white" }}>
+                      लोग समय पर बीमारियों की जाँच और परामर्श पाएँगे।
+                    </li>
+                    <li style={{ color: "white" }}>
+                      गाँव-गाँव में स्वस्थ जीवन शैली को बढ़ावा मिलेगा।
+                    </li>
                   </ul>
 
-                  <p className="fs-5 lh-lg">
+                  <p className="fs-5 lh-lg" style={{ color: "white" }}>
                     मैं सभी युवाओं, समाजसेवियों और ग्राम प्रतिनिधियों से आह्वान
                     करता हूँ कि इस मिशन से जुड़कर एक स्वस्थ और सशक्त भारत के
                     निर्माण में अपनी भूमिका निभाएँ।{" "}
@@ -105,10 +119,16 @@ const DirectorPage = () => {
 
                   {/* Signature */}
                   <div className="text-end mt-4">
-                    <p className="fw-bold mb-0">सादर,</p>
-                    <p className="mb-0">(हस्ताक्षर)</p>
-                    <p className="fw-bold mb-0">निदेशक (Director)</p>
-                    <p className="fw-bold text-primary">
+                    <p className="fw-bold mb-0" style={{ color: "white" }}>
+                      सादर,
+                    </p>
+                    <p className="mb-0" style={{ color: "white" }}>
+                      (हस्ताक्षर)
+                    </p>
+                    <p className="fw-bold mb-0" style={{ color: "white" }}>
+                      निदेशक (Director)
+                    </p>
+                    <p className="fw-bold " style={{ color: "white" }}>
                       ग्रामीण स्वास्थ्य मित्र परियोजना
                     </p>
                   </div>

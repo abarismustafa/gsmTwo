@@ -27,3 +27,154 @@
     color: #ffff;
     background-color: #1da4da;
 }
+
+
+.edu-header .header-mainmenu {
+    background-color: #ee1d23;
+}
+
+.edu-header .header-mainmenu.edu-sticky {
+    background-color: #ee1d23;
+}
+
+.mainmenu-nav .mainmenu>li>a {
+    color: #fff;
+}
+
+.header-action li.icon a {
+    color: #ffff;
+}
+
+.hero-banner.hero-style-9 .slider {
+    height: 113vh;
+}
+
+.color-primary {
+    color: #ee1d23;
+}
+
+.hero-banner.hero-style-9 .slider .health-slider-content .swiper-slide .inner .title {
+    color: #081245;
+    ;
+}
+
+.banner-btn .edu-btn {
+    background: #001376;
+}
+
+.section-title .pre-title {
+    color: #ee1d23;
+}
+
+.section-title .title {
+    color: #081245;
+}
+
+.edu-about-area {
+    background: #001376;
+}
+
+.section-title p {
+    color: #fff;
+}
+
+.about-content .features-list li {
+    color: #fff;
+}
+
+.home-eight-course {
+    background: #001376;
+}
+
+.section-left .title {
+    color: #fff;
+}
+
+.header-btn .btn-medium {
+    background: #001376;
+}
+
+.header-action li.icon a .count {
+    background: #001376;
+}
+
+.footer-subscription-form .btn-medium {
+    background: #001376;
+}
+
+.contact-us-info .heading-title {
+    color: #081245;
+}
+
+.footer-lighten .copyright-area {
+    background-color: #001376;
+}
+
+.footer-lighten .copyright-area p {
+    color: #ffff;
+}
+
+.edu-footer .copyright-area a {
+    color: #ee1d23;
+}
+
+/* .edu-gallery-area {
+    background: linear-gradient(90deg, #ffae00 0%, #001376 100%) !important;
+} */
+
+.colodet {
+    color: black !important;
+}
+
+.mainmenu-nav .mainmenu>li>a:hover,
+.mainmenu-nav .mainmenu>li>a.active {
+    color: #ffff !important;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu {
+    background-color: #001376;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu li a {
+    color: #fff;
+}
+
+.mainmenu-nav .mainmenu li:hover {
+    background-color: #ee1d23;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover {
+    color: #fff !important;
+}
+
+.mm-menu ul li.has-droupdown ul.sub-menu.active {
+    background-color: #001376;
+}
+
+.mm-menu ul li a {
+    color: #fff;
+}
+
+.mm-menu ul li:hover a {
+    color: #fff;
+}
+
+.mm-menu ul li:hover {
+    background-color: #ee1d23;
+}
+
+.mm-menu ul li:hover>a,
+.mm-menu ul li:hover button {
+    color: #fff;
+}
+
+.downlod-sec {
+    background-color: #001376;
+}
+
+.protect {
+    width: 100%;
+    height: 30vh;
+    border: 1px solid white;
+    border-radius: 7px;
+}

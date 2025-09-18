@@ -35,15 +35,12 @@ function FeatureItem({ delay, icon, clr, title }) {
 const FeatureArea = () => {
   return (
     <>
-      <div className="py-5 bg-light mb-4">
+      <div className="py-5 mb-4 downlod-sec">
         <div className="container">
           <div className="row g-5 justify-content-center">
             {/* Apply Online */}
-            <div className="col-lg-3 col-md-6">
-              <a
-                href="/carrier"
-                className="text-decoration-none"
-              >
+            <div className="col-lg-4 col-md-6">
+              <a href="/carrier" className="text-decoration-none protect">
                 <div className="card h-100 text-black border-0 shadow-lg rounded-3 feature-card apply-card">
                   <div className="card-body d-flex flex-column align-items-start">
                     <div className="icon-box bg-black bg-opacity-25 p-3 rounded mb-3">
@@ -51,7 +48,10 @@ const FeatureArea = () => {
                     </div>
                     <h4 className="fw-bold text-white">APPLY ONLINE</h4>
                     <p className=" fw-bold text-black">
-                     <i> Apply to our Courses through the online application</i>
+                      <i>
+                        {" "}
+                        Apply to our Courses through the online application
+                      </i>
                     </p>
                   </div>
                 </div>
@@ -59,10 +59,10 @@ const FeatureArea = () => {
             </div>
 
             {/* Prospectus */}
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <a
                 href="assets/pdfs/Prospectus_Book.pdf"
-                className="text-decoration-none"
+                className="text-decoration-none protect"
               >
                 <div className="card h-100 text-black border-0 shadow-lg rounded-3 feature-card prospectus-card">
                   <div className="card-body d-flex flex-column align-items-start">
@@ -70,22 +70,26 @@ const FeatureArea = () => {
                       <FileText size={36} />
                     </div>
                     <h4 className="fw-bold text-white">PROSPECTUS</h4>
-                    <p className="fw-bold  text-black"><i>Download our Programme Prospectus</i></p>
+                    <p className="fw-bold  text-black">
+                      <i>Download our Programme Prospectus</i>
+                    </p>
                   </div>
                 </div>
               </a>
             </div>
 
             {/* Certification */}
-            <div className="col-lg-3 col-md-6">
-              <a href="#" className="text-decoration-none">
+            <div className="col-lg-4 col-md-6">
+              <a href="#" className="text-decoration-none protect">
                 <div className="card h-100 text-black border-0 shadow-lg rounded-3 feature-card certification-card">
                   <div className="card-body d-flex flex-column align-items-start">
                     <div className="icon-box bg-white bg-opacity-25 p-3 rounded mb-3">
                       <Award size={36} />
                     </div>
                     <h4 className="fw-bold text-white">CERTIFICATION</h4>
-                    <p className=" fw-bold  text-black"><i>All Certificate Download from here</i></p>
+                    <p className=" fw-bold  text-black">
+                      <i>All Certificate Download from here</i>
+                    </p>
                   </div>
                 </div>
               </a>
@@ -103,10 +107,11 @@ const FeatureArea = () => {
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
         }
         .apply-card {
-  background: linear-gradient(orange, skyblue, black);
+          background: linear-gradient(orange, skyblue, black);
         }
         .prospectus-card {
-  background: linear-gradient(beige, blueviolet, lightskyblue);        }
+          background: linear-gradient(beige, blueviolet, lightskyblue);
+        }
         .certification-card {
           background: linear-gradient(#e66465, #9198e5);
         }
