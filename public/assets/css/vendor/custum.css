@@ -167,3 +167,14 @@
 .mm-menu ul li:hover button {
     color: #fff;
 }
+
+.downlod-sec {
+    background-color: #001376;
+}
+
+.protect {
+    width: 100%;
+    height: 30vh;
+    border: 1px solid white;
+    border-radius: 7px;
+}
