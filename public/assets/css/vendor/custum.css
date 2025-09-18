@@ -121,3 +121,28 @@
 /* .edu-gallery-area {
     background: linear-gradient(90deg, #ffae00 0%, #001376 100%) !important;
 } */
+
+.colodet {
+    color: black !important;
+}
+
+.mainmenu-nav .mainmenu>li>a:hover,
+.mainmenu-nav .mainmenu>li>a.active {
+    color: #ffff !important;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu {
+    background-color: #001376;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu li a {
+    color: #fff;
+}
+
+.mainmenu-nav .mainmenu li:hover {
+    background-color: #ee1d23;
+}
+
+.mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover {
+    color: #fff !important;
+}

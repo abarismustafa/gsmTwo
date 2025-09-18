@@ -174,7 +174,7 @@ const menu_data = [
             // { title: 'Course Details 2', link: '/course-details-2' },
             // { title: 'Course Details 3', link: '/course-details-3' }
 
-            { title: "Registration Form", link: "/course-style-1" },
+            { title: "Registration Form", link: "/carrier" },
             { title: "Directory", link: "/directory" },
         ],
     },
