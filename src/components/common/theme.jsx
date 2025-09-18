@@ -25,7 +25,7 @@ const Theme = () => {
 
   return (
     <>
-      {/* Theme Switcher */}
+      Theme Switcher
       <div className="dark-light-wrapper">
         <label htmlFor="dark-light-checkbox" className="dark-light-label">
           <input
@@ -65,7 +65,9 @@ const Theme = () => {
       </div>
 
       {/* Download Button */}
-      <div className="download-browser">
+      {false && (
+
+      <div className="download-browser d-done">
         <button
           onClick={handleDownload}
           className="btn btn-primary"
@@ -87,8 +89,12 @@ const Theme = () => {
             : downloaded
             ? "Downloaded ✅"
             : "Download Prospectus"}
+            
         </button>
+        
       </div>
+      )}
+
     </>
   );
 };
