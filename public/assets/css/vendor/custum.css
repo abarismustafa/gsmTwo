@@ -146,3 +146,24 @@
 .mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover {
     color: #fff !important;
 }
+
+.mm-menu ul li.has-droupdown ul.sub-menu.active {
+    background-color: #001376;
+}
+
+.mm-menu ul li a {
+    color: #fff;
+}
+
+.mm-menu ul li:hover a {
+    color: #fff;
+}
+
+.mm-menu ul li:hover {
+    background-color: #ee1d23;
+}
+
+.mm-menu ul li:hover>a,
+.mm-menu ul li:hover button {
+    color: #fff;
+}
